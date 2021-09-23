@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MixSets.cpp" />
+    <ClCompile Include="ReadIni.cpp" />
+    <ClCompile Include="IMFX\Gunflashes.cpp">
+      <Filter>IMFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MixSets.h" />
+    <ClInclude Include="ReadIni.h" />
+    <ClInclude Include="IniReader\ini_parser.hpp">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader\IniReader.h">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IMFX\Gunflashes.h">
+      <Filter>IMFX</Filter>
+    </ClInclude>
+    <ClInclude Include="IMFX\imfx.h">
+      <Filter>IMFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IniReader">
+      <UniqueIdentifier>{5dce5427-afb5-4cc1-86e4-0afdc0d7c2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMFX">
+      <UniqueIdentifier>{b2c91cb5-70b2-4e69-a437-218e96d0c599}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
